@@ -42,7 +42,6 @@ echo "complete -C '/usr/local/bin/aws_completer' aws" >> ~/.bashrc
 
 ## Billing and Alerts
 
-
 ### Set GitHub Codespace variables for AWS Account ID
 
 1. Navigate to `Settings -> Codespaces -> Codespaces secrets` in GitHub
@@ -86,3 +85,12 @@ aws cloudwatch put-metric-alarm --cli-input-json file://aws/json/alarm_config.js
 ```
 aws budgets create-budget --account-id $AWS_ACCOUNT_ID --budget file://aws/json/budget.json --notifications-with-subscribers file://aws/json/budget-notifications-with-subscribers.json
 ```
+
+## Architecture
+
+[Architecture Diagram](https://lucid.app/documents/view/460b3c8d-a049-40c0-ac05-aee04d264962)
+
+![image](https://user-images.githubusercontent.com/62394512/218374776-855aea03-9fff-46d7-a02e-8c5472ba28c6.png)
+
+
+
