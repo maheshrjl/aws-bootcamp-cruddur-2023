@@ -88,6 +88,11 @@ aws budgets create-budget --account-id $AWS_ACCOUNT_ID --budget file://aws/json/
 
 ## Architecture
 
+[Conceptual Diagram](https://lucid.app/lucidchart/45111b94-da21-4009-b2b5-f374b60ae602/edit?invitationId=inv_3f63a28b-ab19-4507-8bfb-52fedf50a663&page=0_0#)
+
+![image](https://user-images.githubusercontent.com/62394512/218376017-7c8330a1-ce92-4fe5-a2ba-0535cc9b1dcd.png)
+
+
 [Architecture Diagram](https://lucid.app/documents/view/460b3c8d-a049-40c0-ac05-aee04d264962)
 
 ![image](https://user-images.githubusercontent.com/62394512/218374776-855aea03-9fff-46d7-a02e-8c5472ba28c6.png)
